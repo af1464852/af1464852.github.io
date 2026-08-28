@@ -4,6 +4,6 @@ description: This is my portfolio showcasing my projects and skills.
 
 baseurl:
 
-url: "https://af1464852.github.io
+url: "https://af1464852.github.io"
 
-theme: jekyll-theme-midnight#
+theme: jekyll-theme-midnight
