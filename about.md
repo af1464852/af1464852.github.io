@@ -7,6 +7,6 @@ I play soccer and one of my goals are to go pro in soccer and be happy n have a 
 
 ## Navigation
 
-[Notebook]
+[Notebook](notebook.md)
 
 [Home](index.md)
