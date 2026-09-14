@@ -8,8 +8,8 @@ Welcome to My Portfolio Hello! My name is [af].
 
 ## About Me
 
-Click here to learn more → [About Me]
+Click here to learn more → [About Me](about.md)
 
 ## Notebook
 
-Click here to go to my notebook → [Notebook]
+Click here to go to my notebook → [Notebook](notebook.md)
