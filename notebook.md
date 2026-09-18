@@ -15,34 +15,49 @@
 
 
 ## Blocks
-Name: Hat Block 
+### Hat Block 
+
 Shape/Type: A block with a rounded top and a notch on the bottom.
+
 What It Does: It senses specific triggers (like pressing a key or clicking the green flag) to start a script. It can only sit at the very top of a stack of commands.
+
 Example: when green flag clicked
 
-Name: Stack Block or Command Block
+### Stack Block or Command Block
+
 Shape/Type: Rectangular with a notch on top and a bump on the bottom.
+
 What It Does: It performs a specific action or command. It connects by snapping underneath a Hat block or other Stack blocks to form a sequential list of actions.
+
 Example: move 10 steps
 
-Name: C-Block or Control/Loop Block
+### C-Block or Control/Loop Block
+
 Shape/Type: Shaped like the letter "C" with an opening on the right side.
+
 What It Does: The C-shape represents a loop or a condition. Blocks placed inside the opening will repeat or run based on the block's rules.
+
 Example: repeat 10 the actions inside run 10 times
 
-Name: Reporter Block
+### Reporter Block
 Shape/Type: Oval/Round.
+
 What It Does: It holds and reports a value, such as a number or a piece of text. It cannot stand alone; it must be dropped inside the oval-shaped input slots of other blocks.
+
 Example: x position or username
 
-Name: Boolean Block
+### Boolean Block
 Shape/Type: Hexagonal six-sided with pointed ends.
+
 What It Does: It reports whether a condition is strictly true or false. It has a unique pointed shape so programmers know it can only fit into hexagonal input slots (like conditions for loops and ifs).
+
 Example: touching mouse-pointer?
 
-Name: Repeat Block
+### Repeat Block
 Shape/Type: C-shape.
+
 What It Does: It runs the blocks placed inside it a specific number of times. Stack blocks go inside its opening.
+
 Example: A repeat 5 block containing a play sound block will play that sound exactly 5 times.
 
 Name: Wait Until Block
@@ -50,14 +65,18 @@ Shape/Type: Rectangular Stack block with a hexagonal input slot.
 What It Does: It pauses the execution of the script at that exact point. It needs a Boolean condition (true/false) to look at, and it will only let the script move forward once that condition becomes true.
 Example: wait until <key space pressed?>
 
-Name: If Then Block
+### If Then Block
 Shape/Type: C-shape with a hexagonal input slot at the top.
+
 What It Does: It checks a Boolean condition. If the condition is true, the program runs the blocks tucked inside the "C". If the condition is false, the program completely skips those blocks.
+
 Example: if score  10 then  say "You Win!" 
 
-Name: Forever Block
+### Forever Block
 Shape/Type: C-shape with a smooth bottom no notch underneath
+
 What It Does: It runs the blocks inside it in a continuous loop that never stops on its own. Programmers use it for actions that need constant checking or updating, like gravity mechanics or background music.
+
 Example: forever  next costume, wait 0.1 seconds 
 
 
