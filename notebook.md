@@ -85,24 +85,75 @@ Example: forever  next costume, wait 0.1 seconds
 
 
 ## Concepts
+### Sequence
+What It Means: The specific order in which a computer or robot executes instructions, running from top to bottom.
 
+In My Own Words: It is like following a recipe; if you bake the cake before mixing the ingredients, it will not work.
 
+Example: 1. Drive forward. 2. Turn right. 3. Stop. (If you stop first, you never move).
 
+ ### Parameters 
+ What It Means: Values or inputs passed into a command that modify its behavior or customize how it runs.
+ 
+ In My Own Words: The specific details you give a command so it knows exactly how much, how far, or how fast to do something.
+ 
+ Example: In the command Drive Forward (Distance: 50 cm), the number 50 cm is the parameter
 
+### Loops / Iteration
+What It Means: A programming structure that repeats a block of instructions either a set number of times or until a condition is met.
 
+In My Own Words: Instead of writing the same line of code over and over, you tell the robot to repeat a set of steps.
 
+Example: Repeat 4 times: Drive forward 10 cm, Turn right 90 degrees to draw a perfect square.
 
+### Sensors
+What It Means: Hardware devices that allow a robot to detect physical inputs and gather data from the world around it.
 
+In My Own Words: The "eyes, ears, and skin" of a robot that let it notice things like walls, light, or obstacles.
 
+Example: A bumper sensor clicks when the robot runs into a wall, telling it to stop.
 
+ ### Booleans & Conditions
+ What It Means: Data that can only have one of two possible values: TRUE or FALSE.
+ 
+ In My Own Words: A simple yes-or-no check that a program uses to decide which path of code to take.
+ 
+ Example: Is_Obstacle_Ahead can either be TRUE (stop) or FALSE (keep driving).
 
+ ### Sense → Think → Act
+ What It Means: The continuous decision-making cycle a robot uses to read sensor data, process it against logic, and execute a physical response.
+ 
+ In My Own Words: The robot looks at its environment, decides what to do based on its rules, and then moves.
+ 
+ Example: The robot senses a red line, thinks "Red means stop," and acts by cutting power to the motors.
 
+### Comparisons 
+What It Means: Relational operators (like <, >, or ==) used to evaluate two values against each other, resulting in a Boolean output.
 
+In My Own Words: Mathematical checks to see if numbers are bigger, smaller, or equal to each other to make a choice.
 
+Example: If (Distance to wall < 10 cm), then stop the robot.
 
+### Coordinates
+What It Means: A system of X (horizontal) and Y (vertical) grid values used to identify an exact location in a 2D space.
 
+In My Own Words: A map coordinate system that tells the robot exactly where it is standing on the floor.
 
+Example: Directing a robot to drive to location (X: 5, Y: 10) on a virtual arena grid.
 
+ ### Conditionals
+ What It Means: Statements like IF, THEN, and ELSE that allow a program to perform different actions depending on whether a condition is true.
+ 
+ In My Own Words: A fork in the road for code; if a certain rule is met, do option A, otherwise do option B.
+ 
+ Example: IF the battery is low, THEN drive to the charging dock; ELSE, keep cleaning the floor.
+
+### Patterns
+What It Means: Recognizing regularities or repeating sequences in a problem to simplify code and create better algorithms.
+
+In My Own Words: Spotting a repetitive rhythm in what the robot needs to do so you can write cleaner, smarter code.
+
+Example: Noticing that a robot maze requires turning left every 3 steps, and writing a single loop to handle the entire map.
 
 
 
