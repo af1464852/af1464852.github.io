@@ -2,7 +2,7 @@ Welcome to My Portfolio Hello! My name is [af].
 
 ## Projects
 
-- Project 1: Description
+[VEX VR](vex-vr.md) 
 
 - Project 2: Description
 
