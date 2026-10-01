@@ -1,13 +1,12 @@
-## Challenge: [Name]
+## Challenge: [Find your age]
 
 ### Goal
 
-Describe the goal of this lesson or challenge. What was your robot supposed to accomplish?
+The goal of this challenge was to drive the robot to the year you were born and your birthday
 
 ### My Solution
-
-Add a picture or screenshot showing your solution.
+<img width="1424" height="757" alt="image" src="https://github.com/user-attachments/assets/b0550d54-1919-406d-a72e-29ec491b7094" />
 
 ### What I Learned
 
-Explain what you learned while completing this lesson or challenge. Include programming concepts, blocks, sensors, strategies, or problem-solving skills you practiced.
+I learned how to fill in blocks with color and move the robot certain directions
