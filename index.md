@@ -16,4 +16,4 @@ Click here to go to my notebook → [Notebook](notebook.md)
 
 ## Engineering Notebook 
 
-[Engineering Notebook](Engineering-notebook.md)
+Click here to go to my Engineering Notebook [Engineering Notebook](Engineering-notebook.md)
